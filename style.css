@@ -10,7 +10,7 @@ nav{
 .input-container{
     display: flex;
     align-items: center;
-    border: 1px solid #ff6e00;
+    border: 1px solid #40362f;
     padding: 5px;
     width: 300px;
     height: 50px;
@@ -23,7 +23,7 @@ nav{
     margin: 10px 50px;
     margin-left: 20px;
     width: 100%;
-    color: #ff6e00;
+    color: #40362f;
     border: none;
     background: transparent;
     outline: none;
@@ -36,12 +36,14 @@ nav{
     text-align: center;
     margin: 0 auto;
     cursor: pointer;
-    color: #ffa31a;
+    color: #463213;
 }
 ul li{
     display: inline;
     margin-left: 40px;
     font-family: sans-serif;
+    cursor: pointer;
+    color: #cd7777;
 }
 main{
     display: flex;
@@ -51,7 +53,7 @@ main{
 .container{
     width: 70%;
     padding: 3rem;
-    box-shadow: 10px 10px 40px 5px #e0e0e0;
+    box-shadow: 10px 10px 40px 5px #c0b1b1;
     margin-top: 5rem;
     display: flex;
     justify-content: space-between;
@@ -60,20 +62,20 @@ main{
 .content-container h1{
     font-family: sans-serif;
     font-size: 2rem;
-    color: #2c2c2c;
+    color: #cd7777;
 }
 .content-container p{
     font-family: sans-serif;
     line-height: 1.4;
     margin-bottom: 2rem;
-    color: #444444;
+    color: #111010;
     width: 26rem;
 }
 .img{
     transform: translateX(-120px);
     margin-top: 1rem;
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 300px;
     border-radius: 300px;
     background: url('https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8fA%3D%3D');
     background-repeat: no-repeat;
@@ -93,8 +95,15 @@ main{
 }
 .ing{
     padding: 10px 20px;
-    border: 2px solid #ff6e00;
+    border: 2px solid #cd7777;
     font-family: sans-serif;
     border-radius: 100px;
     margin: 10px 0 0 10px;
 }
+.main-btn {
+    background: transparent;
+    border: none;
+    border: 2px solid #cd7777;
+    padding: 10px;
+    color: #cd7777;
+  }
